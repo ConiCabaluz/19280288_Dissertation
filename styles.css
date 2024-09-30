@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* General styles */
+body {
+    background-color: #222;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Image */
+.header-image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Header styles */
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header h1 {
+    color: white;
+    margin: 0;
+}
+
+/* Main content layout */
+.main-content {
+    display: flex;
+    margin: 20px;
+}
+
+/* Filters styles */
+.filters {
+    flex: 1;
+    max-width: 25%;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin-right: 20px;
+}
+
+.filters label {
+    font-weight: bold;
+}
+
+/* Recommendations styles */
+.recommendations {
+    flex: 3;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    height: 100%;
+}
+
+.recommendations h2 {
+    margin-top: 0;
+}
+
+/* Footer styles */
+footer {
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
